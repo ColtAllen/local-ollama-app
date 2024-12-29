@@ -50,7 +50,7 @@ def query_llama_via_cli(input_text):
     try:
         # Start the interactive process
         process = subprocess.Popen(
-            ["ollama", "run", "llama3.1"],
+            ["ollama", "run", "llama3.2"],
             stdin=subprocess.PIPE,
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
